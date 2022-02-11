@@ -7,5 +7,6 @@ public class DAO {
 
 	String name3 = "Á¤Çö";
 	String name2 = "¼±È£";
+	String name3 = "´ÙÈ«";
 	String name5 = "¿ìÇù";
 	
