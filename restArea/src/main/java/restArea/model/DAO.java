@@ -8,5 +8,6 @@ public class DAO {
 	String name5 = "¿ìÇù";
 	
 	int age1 = 25;
+	int age2 = 31;
 }
 	
