@@ -1126,8 +1126,7 @@ label {
 .hero-section {
 	padding-top: 250px;
 	padding-bottom: 215px;
-	background: linear-gradient(rgba(34, 27, 25, 0.5), rgba(34, 27, 25, 0.5)),
-		rgba(34, 27, 25, 0.5) url(../images/hero-img.jpg) no-repeat center;
+	background: linear-gradient(rgba(34, 27, 25, 0.5), rgba(34, 27, 25, 0.5)), rgba(34, 27, 25, 0.5); 
 	background-size: cover;
 	position: relative;
 	top: 0px;
