@@ -31,101 +31,144 @@
 </head>
 
 <body>
-   <div class="header navbar-fixed-top">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
-               <h1 class="active">
-                  <a href="index.html" title="Home"><img src="./images/logo.png" width="80px" height="80px"></a>
-                  
-               </h1>
-               
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-               <div class="navigation">
-                  <div id="navigation">
-                     <ul>
-                        <li><a href="service-list.html" title="Write">글 쓰기</a></li>
-                        <li><a href="portfolio.html" title="Answer">답변하기</a></li>
-                        <li><a href="blog-default.html" title="MyGarden">나의 화원</a></li>
-                        <li><a href="contact.html" title="MyPage">나의 쉼터</a>
-                        	<ul>
-                        		<li><a href="contact.html" title="Check">확인하기</a></li>
-                        		<li><a href="contact.html" title="Logout">로그아웃</a></li>
-                        	</ul>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="hero-section">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                    
-            </div>
-         </div>
-      </div>
-   </div>
-	
-	<div class="space-medium">
-		<div class="row">
-			<div class="userworry">
-				<h1>현재 사용자들의 고민</h1>
-				<br>
-				<p>해당 카테고리 고민 유형 설명</p>
-				
+	<div class="header navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
+					<h1 class="active">
+						<a href="index.html" title="Home"><img src="./images/logo.png"
+							width="80px" height="80px"></a>
+					</h1>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					<div class="navigation">
+						<div id="navigation">
+							<ul>
+								<li><a href="service-list.html" title="Write">글 쓰기</a></li>
+								<li><a href="portfolio.html" title="Answer">답변하기</a></li>
+								<li><a href="blog-default.html" title="MyGarden">나의 화원</a></li>
+								<li><a href="contact.html" title="MyPage">나의 쉼터</a>
+									<ul>
+										<li><a href="contact.html" title="Check">확인하기</a></li>
+										<li><a href="contact.html" title="Logout">로그아웃</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-
-			<div class="comment">
-				<h1>추천 코멘트</h1>
-			</div>
-
-			<div class="drawgraph">
-				<h1>그래프 넣을 공간</h1>
-			</div>
-
 		</div>
 	</div>
+	<div class="hero-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="space-medium">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                    <div class="tag">             
+                        <h1>#힘이되는말</h1>
+                    </div>     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-block text-center">
+                        <div class="service-img ">
+                            <h1><img src="images/service-pic-1.jpg" class="img-responsive" alt="Interior Design Website Templates Free Download"> </h1>
+                        </div>
+                        <!-- service img -->
+                        <div class="service-content">
+                            <!-- service content -->
+                            <h2><a href="service-detail.html" class="title">Interior</a></h2>                      
+                        </div>
+                        <!-- service content -->
+                    </div>
+                    <!-- /.service block -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-block text-center">
+                        <!-- service block -->
+                        <div class="service-img">
+                            <!-- service img -->
+                            <a href="service-detail.html" class="imghover"><img src="images/service-pic-2.jpg" class="img-responsive" alt="Interior Design Website Templates Free Download"> </a>
+                        </div>
+                        <!-- service img -->
+                        <div class="service-content">
+                            <!-- service content -->
+                            <h2><a href="service-detail.html" class="title">Exterior</a></h2>                        
+                        </div>
+                        <!-- service content -->
+                    </div>
+                    <!-- /.service block -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="service-block text-center">
+                        <!-- service block -->
+                        <div class="service-img">
+                            <!-- service img -->
+                            <a href="service-detail.html" class="imghover"><img src="images/service-pic-3.jpg" class="img-responsive" alt="Interior Design Website Templates Free Download"> </a>
+                        </div>
+                        <!-- service img -->
+                        <div class="service-content">
+                            <!-- service content -->
+                            <h2><a href="service-detail.html" class="title">Landscape</a></h2>                        
+                        </div>
+                        <!-- service content -->
+                    </div>
+                    <!-- /.service block -->
+                </div>
+            </div>
+        </div>
+    </div>
+	
+
+	<div class="space-medium">
+      <div class="row">
+         <div class="tag">
+            <p>#힘이되는말</p>
+         </div>
+         <br>
+         <div class = "spaceM">
+         	<div class="introduce">
+          	  <h1>많은 사람들에게 힘이되어주세요! (소개글)</h1>
+         </div>
+         
+         <div class="makegarden">
+            <h1>나의 화원을 만들어주세요!</h1>
+         </div>
+
+         <div class="drawgraph">
+            <h1>그래프 넣을 공간</h1>
+         </div>
+
+      </div>
+   </div>
+</div>
 
 	<div class="footer">
 		<!-- footer-->
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="footer-widget">
-					</div>
+				<div class="footer-widget">
+					<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
+					<img src="./images/facebook.png" width="80px" height="80px" alt="" hspace=20> 
+					<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>		
 				</div>
-			<!-- 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="footer-widget">
-						social block
-						<h3 class="widget-title">Our Address</h3>
-						<p>
-							1309 Roosevelt Wilson Lane <br> Colton, CA 92324
-						</p>
-					</div>
-					/.social block
+				<br>
+				<div class="widget-title">
+					<p>Info Support Marketing</p>
+					<p>Terms of Use Privacy Policy</p>
+					<p>@2022 대화해조 </p>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="footer-widget">
-						newsletter block
-						<h3 class="widget-title">e-mail Us</h3>
-						<p>info@yourwebsitedomain.com</p>
-					</div>
-					newsletter block
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="footer-widget">
-						newsletter block
-						<h3 class="widget-title">Call us</h3>
-						<p>180-874-5234</p>
-						<p>180-752-3957</p>
-					</div>
-					newsletter block
-				</div> -->
 			</div>
 		</div>
 	</div>

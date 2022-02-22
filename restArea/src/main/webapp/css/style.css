@@ -203,32 +203,65 @@ blockquote {
 	border-left: 5px solid #372d2b;
 }
 
-div.userworry {
-	width:800px;
-	height:300px;
-	margin-left: 100px;
-	float: left;
-	box-sizing: border-box;
-	text-align: center;
+/* div.tag{
+   width:500px;
+   height:80px;
+   margin-left: 130px;
+   position : relative;
+   float: left-top;
+   box-sizing: border-box;
+   text-align: center;
+   background-color: yellow;
+   border-radius: 30px;
 }
 
-div.comment {
-	text-align: center;
-	width:800px;
-	height:300px;
-	margin-right:100px;
-	float: right;
-	box-sizing: border-box;
+div.spaceM{
+	 width:2000px;
+	 height:500px;
+	 margin-left: 5%;
+	 margin-right: 5%;
 }
 
-div.drawgraph {
-	margin-left: 100px;
-	width:800px;
-	height:500px;
-	float: left;
-	box-sizing: border-box;
-	text-align: center;
+div.introduce {
+   width:70%;
+   height:100%;
+   margin-right : 5%;
+   float: left;
+   box-sizing: border-box;
+   text-align: center;
+   background-color: yellow;
+   border-radius: 30px;
 }
+
+div.makegarden {  
+   width:25%;
+   height:100%;
+   border-radius: 30px;
+   float: right;
+   box-sizing: border-box;
+   background-color: yellow;
+} */
+
+/* div.introduce {
+   width:1000px;
+   height:500px;
+   margin-left: 130px;
+   float: left;
+   box-sizing: border-box;
+   text-align: center;
+   background-color: yellow;
+   border-radius: 30px;
+}
+
+div.makegarden {  
+   width:600px;
+   height:500px;
+   margin-right: 130px;
+   border-radius: 30px;
+   float: right;
+   box-sizing: border-box;
+   background-color: yellow;
+} */
 
 /*-------------- align ------------*/
 
@@ -1071,7 +1104,7 @@ label {
     5.1 Header Regular 
    ----------------------*/
 .header-collapse {
-	background-color: #000;
+	background-color: white;
 }
 
 .logo {
@@ -1624,6 +1657,7 @@ label {
 8. Footer 
 -------------------------------------*/
 .footer {
+	border-top: 1px solid #372d2b;
 	background-color: white;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -1634,8 +1668,10 @@ label {
 	
 }
 
-.footer-widget p {
-	color: #8e8e8d;
+.widget-title>p {
+	font-size : 25px;
+	text-align : center;
+	color: #565656;
 }
 
 .footer-widget .widget-title {
@@ -1647,59 +1683,9 @@ label {
 }
 
 .footer-widget {
-	background-image : url("../images/instagram.png"); width:50px; height:50px;
-	background-size : contain;
+	text-align: center;
 }
 
-.footer-widget ul {
-	
-}
-
-.footer-widget li {
-	
-}
-
-.footer-widget li a {
-	
-}
-
-.footer-widget li a:hover {
-	
-}
-
-.footer-link {
-	
-}
-
-.footer-social {
-	
-}
-
-.footer-social ul {
-	float: right;
-}
-
-.footer-social ul li {
-	float: left;
-	margin-left: 15px;
-}
-
-.footer-social ul li a i {
-	color: #acacac;
-	font-size: 20px;
-}
-
-.footer-social ul li a:hover i {
-	color: #e7a625;
-}
-
-.footer .contact li {
-	
-}
-
-.footer .contact li i {
-	
-}
 
 /*-----------------------------------
 9. Pages 
