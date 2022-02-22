@@ -28,7 +28,11 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js "></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js "></script>
 <![endif]-->
+
+
 <style>
+
+
 div.empty {
 	width: 60%;
 	height: 60%;
@@ -45,6 +49,9 @@ div.active {
 
 h1 {
 	text-align: center;
+}
+h1.active {
+	text-align: left;
 }
 
 div.service-content {
@@ -102,7 +109,8 @@ div.com {
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 					<h1 class="hero-title">
-						<b>쉼 터</b><br> 마음의 상처를 가진 사람들의 커뮤니티
+						<b>쉼 터</b><br> 
+						<p>마음의 상처를 가진 사람들의 커뮤니티</p>
 					</h1>
 					<a></a>
 				</div>
