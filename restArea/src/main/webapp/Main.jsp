@@ -31,43 +31,40 @@
 </head>
 
 <body>
-	<div class="header navbar-fixed-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
-					<h1 class="active">
-						<a href="index.html" title="Home">쉼터</a>
-					</h1>
-				</div>
-				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-					<div class="navigation">
-						<div id="navigation">
-							<ul>
-								<li><a href="service-list.html" title="Service List">글 작성</a></li>
-								<li><a href="portfolio.html" title="Portfolio">글 답변</a></li>
-								<li><a href="blog-default.html" title="Blog ">글 확인</a></li>
-								<li><a href="contact.html" title="Contact Us">화원</a></li>
-								<li><a href="testimonial.html" title="Testimonial">로그아웃</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="hero-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-					<h1 class="hero-title">
-						<b>쉼 터</b><br> 
-						<p>마음의 상처를 가진 사람들의 커뮤니티</p>
-					</h1>
-					<a></a>
-				</div>
-			</div>
-		</div>
-	</div>
+   <div class="header navbar-fixed-top">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
+               <h1 class="active">
+                  <a href="index.html" title="Home">쉼터</a>
+               </h1>
+               
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+               <div class="navigation">
+                  <div id="navigation">
+                     <ul>
+                        <li><a href="service-list.html" title="Service List">글 작성</a></li>
+                        <li><a href="portfolio.html" title="Portfolio">글 답변</a></li>
+                        <li><a href="blog-default.html" title="Blog ">글 확인</a></li>
+                        <li><a href="contact.html" title="Contact Us">화원</a></li>
+                        <li><a href="testimonial.html" title="Testimonial">로그아웃</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="hero-section">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    
+            </div>
+         </div>
+      </div>
+   </div>
 	
 	<div class="space-medium">
 		<div class="row">
@@ -95,69 +92,40 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="footer-widget">
-						<h3 class="widget-title">About us</h3>
-						<p>Phasellus hendrerit mauris vitae odio suscip pimus donec
-							consequat cursus viverra varius natoque penatibus magnis dis
-							parturient.</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<!-- 	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="footer-widget">
-						<!-- social block -->
+						social block
 						<h3 class="widget-title">Our Address</h3>
 						<p>
 							1309 Roosevelt Wilson Lane <br> Colton, CA 92324
 						</p>
 					</div>
-					<!-- /.social block -->
+					/.social block
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer-widget">
-						<!-- newsletter block -->
+						newsletter block
 						<h3 class="widget-title">e-mail Us</h3>
 						<p>info@yourwebsitedomain.com</p>
 					</div>
-					<!-- newsletter block -->
+					newsletter block
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer-widget">
-						<!-- newsletter block -->
+						newsletter block
 						<h3 class="widget-title">Call us</h3>
 						<p>180-874-5234</p>
 						<p>180-752-3957</p>
 					</div>
-					<!-- newsletter block -->
-				</div>
+					newsletter block
+				</div> -->
 			</div>
 		</div>
 	</div>
 	<!-- /.footer-->
-	<div class="tiny-footer">
-		<!-- tiny footer block -->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-					<div class="copyright-content">
-						Shared by <i class="fa fa-love"></i><a
-							href="https://bootstrapthemes.co">BootstrapThemes</a>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-					<div class="footer-social">
-						<ul class="listnone">
-							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus-square"></i></a>
-							</li>
-							<li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /.tiny footer block -->
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->

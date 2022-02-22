@@ -127,11 +127,13 @@ ul li, ol li {
 
 h1.active{
 	text-align: 'left';
+	background-image : url("../images/instagram.png"); width:50px; height:50px;
+	background-size : contain;
 	
 }
 
 a {
-	color: #FFFFFF;
+	color: black;
 	text-decoration: none;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -1124,9 +1126,8 @@ label {
     5.2 Navigations Regular
    ----------------------------*/
 .hero-section {
-	padding-top: 250px;
-	padding-bottom: 215px;
-	background: linear-gradient(rgba(34, 27, 25, 0.5), rgba(34, 27, 25, 0.5)), rgba(34, 27, 25, 0.5); 
+	padding-top: 100px;
+	background-color : white; 
 	background-size: cover;
 	position: relative;
 	top: 0px;
@@ -1215,7 +1216,7 @@ label {
 #navigation>ul>li>a {
 	padding: 15px;
 	font-size: 13px;
-	color: #fff;
+	color: black;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -1612,7 +1613,7 @@ label {
 8. Footer 
 -------------------------------------*/
 .footer {
-	background-color: #0e0c0b;
+	background-color: white;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: 1px solid #372d2b;
@@ -1635,7 +1636,8 @@ label {
 }
 
 .footer-widget {
-	
+	background-image : url("../images/instagram.png"); width:50px; height:50px;
+	background-size : contain;
 }
 
 .footer-widget ul {
@@ -1686,21 +1688,6 @@ label {
 
 .footer .contact li i {
 	
-}
-
-/*-------------- tiny footer ------------*/
-.tiny-footer {
-	padding-top: 19px;
-	padding-bottom: 9px;
-	font-size: 12px;
-	background-color: #0e0c0b;
-	color: #858585;
-	text-transform: uppercase;
-}
-
-.copyright-content {
-	padding-top: 7px;
-	padding-bottom: 5px color:#747474;
 }
 
 /*-----------------------------------
