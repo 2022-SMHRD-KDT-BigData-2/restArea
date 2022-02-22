@@ -32,7 +32,6 @@
 
 <style>
 
-
 div.empty {
 	width: 60%;
 	height: 60%;
@@ -43,15 +42,18 @@ div.empty {
 	box-sizing: border-box;
 }
 
+
 div.active {
-	color: white;
+	color : white;
 }
 
 h1 {
 	text-align: center;
 }
+
 h1.active {
 	text-align: left;
+
 }
 
 div.service-content {
@@ -80,7 +82,7 @@ div.com {
 	<div class="header navbar-fixed-top">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
 					<h1 class="active">
 						<a href="index.html" title="Home">쉼터</a>
 					</h1>
@@ -88,9 +90,6 @@ div.com {
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="navigation">
 						<div id="navigation">
-
-
-
 							<ul>
 								<li><a href="service-list.html" title="Service List">글 작성</a></li>
 								<li><a href="portfolio.html" title="Portfolio">글 답변</a></li>
