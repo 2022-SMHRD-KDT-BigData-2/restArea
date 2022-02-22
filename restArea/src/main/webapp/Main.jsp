@@ -28,54 +28,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js "></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js "></script>
 <![endif]-->
-
-
-<style>
-
-div.empty {
-	width: 60%;
-	height: 60%;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	float: left;
-	box-sizing: border-box;
-}
-
-
-div.active {
-	color : white;
-}
-
-h1 {
-	text-align: center;
-}
-
-h1.active {
-	text-align: left;
-
-}
-
-div.service-content {
-	width: 60%;
-	height: 20%;
-	margin-left: 100px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	float: left;
-	box-sizing: border-box;
-}
-
-div.com {
-	width: 30%;
-	height: 80%;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	float: right;
-	box-sizing: border-box;
-}
-</style>
 </head>
 
 <body>
@@ -116,37 +68,22 @@ div.com {
 			</div>
 		</div>
 	</div>
+	
 	<div class="space-medium">
-
 		<div class="row">
-			<div class="empty">
-				<h1>그래프 넣을 공간</h1>
+			<div class="userworry">
+				<h1>현재 사용자들의 고민</h1>
 				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+				<p>해당 카테고리 고민 유형 설명</p>
+				
 			</div>
 
-			<div class="com">
+			<div class="comment">
 				<h1>추천 코멘트</h1>
 			</div>
 
-			<div class="service-content">
-				<h2>현재 사용자들의 고민</h2>
-				<p>해당 카테고리 고민 유형 설명</p>
+			<div class="drawgraph">
+				<h1>그래프 넣을 공간</h1>
 			</div>
 
 		</div>
