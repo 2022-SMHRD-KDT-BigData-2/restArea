@@ -36,7 +36,7 @@
          <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
                <h1 class="active">
-                  <a href="index.html" title="Home"><img src="./images/logo3.png" width="50px" height="80px"></a>
+                  <a href="index.html" title="Home"><img src="./images/logo.png" width="80px" height="80px"></a>
                   
                </h1>
                
@@ -45,13 +45,13 @@
                <div class="navigation">
                   <div id="navigation">
                      <ul>
-                        <li><a href="service-list.html" title="Service List">글 쓰기</a></li>
-                        <li><a href="portfolio.html" title="Portfolio">답변하기</a></li>
-                        <li><a href="blog-default.html" title="Blog ">나의 화원</a></li>
-                        <li><a href="contact.html" title="Contact Us">나의 쉼터</a>
+                        <li><a href="service-list.html" title="Write">글 쓰기</a></li>
+                        <li><a href="portfolio.html" title="Answer">답변하기</a></li>
+                        <li><a href="blog-default.html" title="MyGarden">나의 화원</a></li>
+                        <li><a href="contact.html" title="MyPage">나의 쉼터</a>
                         	<ul>
-                        		<li><a href="contact.html" title="Co">확인하기</a></li>
-                        		<li><a href="contact.html" title="Con">로그아웃</a></li>
+                        		<li><a href="contact.html" title="Check">확인하기</a></li>
+                        		<li><a href="contact.html" title="Logout">로그아웃</a></li>
                         	</ul>
                         </li>
                      </ul>

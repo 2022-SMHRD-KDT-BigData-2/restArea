@@ -1215,7 +1215,7 @@ label {
 
 #navigation>ul>li>a {
 	padding: 15px;
-	font-size: 25px;
+	font-size: 30px;
 	color: black;
 	text-decoration: none;
 	font-weight: 600;
@@ -1225,7 +1225,18 @@ label {
 
 #navigation>ul>li:hover>a {
 	color: #ffffff;
-	background-color: #e7a625;
+	background-color: #488eff;
+}
+
+#navigation>ul>li>ul>li>a {
+	font-size : 30px;
+	color: #ffffff;
+	background-color: #9bbcf1;
+}
+
+#navigation>ul>li>ul>li:hover>a {
+	color: #ffffff;
+	background-color: #488eff;
 }
 
 #navigation>ul>li.has-sub>a {
@@ -1242,10 +1253,10 @@ label {
  background: #dddddd;
  content: '';
 }*/
-#navigation>ul>li.has-sub>a:before {
+
+/* #navigation>ul>li.has-sub>a:before {
 	position: absolute;
 	right: 14px;
-	font-family: FontAwesome;
 	content: "\f107";
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -1253,7 +1264,7 @@ label {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-
+ */
 /*#navigation > ul > li.has-sub:hover > a:before {
  top: 23px;
  height: 0;
