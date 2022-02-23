@@ -80,36 +80,19 @@
                 </div>
             </div>
             <div class="row" >
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="service-block text-center">
-                        <div class="service-img ">
-                            <h1><img src="images/service-pic-1.jpg" class="img-responsive" alt="Interior Design Website Templates Free Download"> </h1>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    
+                        <div class="introduce">                      
+                            	<h1>힘을 주세요!</h1><br>
+                            	                   
                         </div>
-                        <!-- service img -->
-                        <div class="service-content">
-                            <!-- service content -->
-                            <h2><a href="service-detail.html" class="title">Interior</a></h2>                      
-                        </div>
-                        <!-- service content -->
-                    </div>
+                        <!-- 소개글 -->
+                       
+                    
+                    
                     <!-- /.service block -->
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="service-block text-center">
-                        <!-- service block -->
-                        <div class="service-img">
-                            <!-- service img -->
-                            <a href="service-detail.html" class="imghover"><img src="images/service-pic-2.jpg" class="img-responsive" alt="Interior Design Website Templates Free Download"> </a>
-                        </div>
-                        <!-- service img -->
-                        <div class="service-content">
-                            <!-- service content -->
-                            <h2><a href="service-detail.html" class="title">Exterior</a></h2>                        
-                        </div>
-                        <!-- service content -->
-                    </div>
-                    <!-- /.service block -->
-                </div>
+                </div>                           
+          
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="service-block text-center">
                         <!-- service block -->
@@ -158,16 +141,18 @@
 		<!-- footer-->
 		<div class="container">
 			<div class="row">
-				<div class="footer-widget">
-					<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
-					<img src="./images/facebook.png" width="80px" height="80px" alt="" hspace=20> 
-					<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>		
-				</div>
-				<br>
-				<div class="widget-title">
-					<p>Info Support Marketing</p>
-					<p>Terms of Use Privacy Policy</p>
-					<p>@2022 대화해조 </p>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer-widget">
+						<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
+						<img src="./images/facebook.png" width="80px" height="80px" alt="" hspace=20> 
+						<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>		
+					</div>
+					<br>
+					<div class="widget-title">
+						<p>Info Support Marketing</p>
+						<p>Terms of Use Privacy Policy</p>
+						<p>@2022 대화해조 </p>
+					</div>
 				</div>
 			</div>
 		</div>
