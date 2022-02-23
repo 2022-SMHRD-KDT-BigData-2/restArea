@@ -33,25 +33,30 @@
 
 <body>
 	<%
-		userVO vo = (userVO)session.getAttribute("vo");
+		userVO vo = (userVO) session.getAttribute("vo");
 	%>
 	<div class="header navbar-fixed-top">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
 					<h1 class="active">
-						<a href="Main.jsp" title="Home"><img src="./images/logo.png" width="80px" height="80px"></a>
+						<a href="Main.jsp" title="Home"><img src="./images/logo.png"
+							width="80px" height="80px"></a>
 					</h1>
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="navigation">
 						<div id="navigation">
-							<% if(vo == null){ %>
+							<%
+								if (vo == null) {
+							%>
 							<ul>
 								<li><a href="join.jsp" title="SignUp">회원가입</a></li>
 								<li><a href="login.jsp" title="Login">로그인</a></li>
 							</ul>
-							<% }else{ %>
+							<%
+								} else {
+							%>
 							<ul>
 								<li><a href="writeBoard.jsp" title="Write">글 쓰기</a></li>
 								<li><a href="answerBoard.jsp" title="Answer">답변하기</a></li>
@@ -62,14 +67,15 @@
 										<li><a href="Main.jsp" title="Logout">로그아웃</a></li>
 									</ul></li>
 							</ul>
-							<% } %>
+							<%
+								}
+							%>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
 	<div class="hero-section">
 		<div class="container">
 			<div class="row">
@@ -78,99 +84,61 @@
 		</div>
 	</div>
 
-	<div class="space-medium">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="tag">
-						<h1>#힘이되는말1</h1>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="tag">
-						<h1>#힘이되는말2</h1>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="tag">
-						<h1>#힘이되는말3</h1>
-					</div>
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-					<div class="introduce">
-						<h1>힘을 주세요!</h1>
-						<br>
-					</div>
-					<!-- 소개글 -->
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="makegarden">
-						<h1># 화원 가꾸기</h1>
-					</div>
-					<!-- 화원 -->
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="drawrecomm">
-						<h1>힘이 되는 말!</h1>
-					</div>
-					<!-- 화원 -->
-				</div>
-
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="todaybook">
-						<h1>오늘의 책</h1>
-					</div>
-					<!-- 화원 -->
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<div class="drawgraph">
-						<h1>그래프</h1>
-					</div>
-					<!-- 화원 -->
-				</div>
-			</div>
-		</div>
-		</div>
+	<!-- 시작 -->
 	
-	<div class="hero-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"></div>
+	<div class="container">
+		<div class="input-form-backgroud row">
+			<div class="input-form col-md-12 mx-auto">
+				<h4 class="joinTitle">회원가입</h4><br>
+				<form action="join" method="post" class="validation-form" novalidate>
+					<div class="row">
+						<div class="col-md-12 mb-12">
+							<label for="name">아이디</label>
+							<input type="text" class="form-control" name="id" style="font-size:25px;color:black;" required><br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 mb-12"">
+							<label for="name">비밀번호</label> 
+							<input type="text" class="form-control" name="pw" style="font-size:25px;color:black;" required><br>			
+						</div>
+					</div>				
+						<button type="submit" class="joinbtn">로그인</button>					
+				</form>
 			</div>
 		</div>
 	</div>
-		<div class="footer">
-			<!-- footer-->
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="footer-widget">
-							<img src="./images/instagram.png" width="80px" height="80px"
-								alt="" hspace=20> <img src="./images/facebook.png"
-								width="80px" height="80px" alt="" hspace=20> <img
-								src="./images/twitter.png" width="80px" height="80px" alt=""
-								hspace=20>
-						</div>
-						<br>
-						<div class="widget-title">
-							<p>Info Support Marketing</p>
-							<p>Terms of Use Privacy Policy</p>
-							<p>@2022 대화해조</p>
-						</div>
+
+	<!-- 끝 -->
+	<div class="hero-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<!-- footer-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer-widget">
+						<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
+						<img src="./images/facebook.png"width="80px" height="80px" alt="" hspace=20> 
+						<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>
+					</div>
+					<br>
+					<div class="widget-title">
+						<p>Info Support Marketing</p>
+						<p>Terms of Use Privacy Policy</p>
+						<p>@2022 대화해조</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	
+	</div>
 	<!-- /.footer-->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

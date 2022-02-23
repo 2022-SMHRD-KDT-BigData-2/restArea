@@ -79,8 +79,7 @@
 	<div class="hero-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"></div>
 			</div>
 		</div>
 	</div>
@@ -92,23 +91,20 @@
 		<div class="input-form-backgroud row">
 			<div class="input-form col-md-12 mx-auto">
 				<h4 class="joinTitle">회원가입</h4><br>
-				<form class="validation-form" novalidate>
+				<form action="join" method="post" class="validation-form" novalidate>
 					<div class="row">
 						<div class="col-md-12 mb-12">
 							<label for="name">아이디</label>
-							<input type="text" class="form-control" id="check" value="" required><br>
+							<input type="text" class="form-control" name="id" style="font-size:25px;color:black;" required><br>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 mb-12"">
 							<label for="name">비밀번호</label> 
-							<input type="text" class="form-control" id="check" value="" required><br>			
+							<input type="text" class="form-control" name="pw" style="font-size:25px;color:black;" required><br>			
 						</div>
-					</div>
-					
-						<button type="submit" class="joinbtn">가입 완료</button>
-					
-						
+					</div>				
+						<button type="submit" class="joinbtn">가입완료</button>					
 				</form>
 			</div>
 		</div>

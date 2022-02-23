@@ -25,9 +25,13 @@ public class join extends HttpServlet {
 		userVO vo = new userVO(id, pw);
 		
 		userDAO dao = new userDAO();
-		dao.join(vo);
+		int cnt = dao.join(vo);
 		
-		
+		if(cnt>0) {
+			response.sendRedirect("Main.jsp");
+		} else {
+			response.sendRedirect("join.jsp");
+		}	
 		
 	}
 }

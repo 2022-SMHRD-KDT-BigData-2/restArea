@@ -13,22 +13,24 @@ public class userDAO {
 	
 	static {
 		try {
-			String resource = "Mapper/config.xml";
+			String resource = "restArea.Mapper/config.xml";
 			InputStream inputStream = Resources.getResourceAsStream(resource);
 			sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);					
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-
+	
+	// -------------------------------------------
+	
 	public int join(userVO vo) {
 		SqlSession session = sqlSessionFactory.openSession(true);
-		int cnt = session.insert("joinService", vo);
+		int cnt = session.insert("mainJoin", vo);
 		session.close();
 		return cnt;	
 	}
 	
-	// -------------------------------------------
+	
 	
 	
 
