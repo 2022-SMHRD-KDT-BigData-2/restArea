@@ -11,7 +11,7 @@
 	content="Are you interior design company and looking for startup your website. Download Free Interior Design Website Templates for you suitable to you.">
 <meta name="keywords"
 	content="interior design, furniture, exterior furniture, furniture company, bootstrap interior design website templates, interior design & furniture website templates">
-<title>빅데이터 1차 프로젝트 3조</title>
+<title>쉼터</title>
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Google Fonts -->
@@ -44,15 +44,14 @@
 					<div class="navigation">
 						<div id="navigation">
 							<ul>
-								<li><a href="service-list.html" title="Write">글 쓰기</a></li>
-								<li><a href="portfolio.html" title="Answer">답변하기</a></li>
-								<li><a href="blog-default.html" title="MyGarden">나의 화원</a></li>
-								<li><a href="contact.html" title="MyPage">나의 쉼터</a>
+								<li><a href="writeBoard.jsp" title="Write">글 쓰기</a></li>
+								<li><a href="answerBoard.jsp" title="Answer">답변하기</a></li>
+								<li><a href="gardenBoard.jsp" title="MyGarden">나의 화원</a></li>
+								<li><a title="MyPage">나의 쉼터</a>
 									<ul>
-										<li><a href="contact.html" title="Check">확인하기</a></li>
-										<li><a href="contact.html" title="Logout">로그아웃</a></li>
-									</ul>
-								</li>
+										<li><a href="checkBoard.jsp" title="Check">확인하기</a></li>
+										<li><a href="Main.jsp" title="Logout">로그아웃</a></li>
+									</ul></li>
 							</ul>
 						</div>
 					</div>
@@ -60,6 +59,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="hero-section">
 		<div class="container">
 			<div class="row">
@@ -69,89 +69,95 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="space-medium">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
-                    <div class="tag">             
-                        <h1>#힘이되는말</h1>
-                    </div>     
-                </div>
-            </div>
-            <div class="row" >
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    
-                        <div class="introduce">                      
-                            	<h1>힘을 주세요!</h1><br>
-                            	                   
-                        </div>
-                        <!-- 소개글 -->
-                       
-                    
-                    
-                    <!-- /.service block -->
-                </div>                           
-          
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="service-block text-center">
-                        <!-- service block -->
-                        <div class="service-img">
-                            <!-- service img -->
-                            <a href="service-detail.html" class="imghover"><img src="images/service-pic-3.jpg" class="img-responsive" alt="Interior Design Website Templates Free Download"> </a>
-                        </div>
-                        <!-- service img -->
-                        <div class="service-content">
-                            <!-- service content -->
-                            <h2><a href="service-detail.html" class="title">Landscape</a></h2>                        
-                        </div>
-                        <!-- service content -->
-                    </div>
-                    <!-- /.service block -->
-                </div>
-            </div>
-        </div>
-    </div>
-	
 
 	<div class="space-medium">
-      <div class="row">
-         <div class="tag">
-            <p>#힘이되는말</p>
-         </div>
-         <br>
-         <div class = "spaceM">
-         	<div class="introduce">
-          	  <h1>많은 사람들에게 힘이되어주세요! (소개글)</h1>
-         </div>
-         
-         <div class="makegarden">
-            <h1>나의 화원을 만들어주세요!</h1>
-         </div>
-
-         <div class="drawgraph">
-            <h1>그래프 넣을 공간</h1>
-         </div>
-
-      </div>
-   </div>
-</div>
-
-	<div class="footer">
-		<!-- footer-->
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="footer-widget">
-						<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
-						<img src="./images/facebook.png" width="80px" height="80px" alt="" hspace=20> 
-						<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>		
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="tag">
+						<h1>#힘이되는말1</h1>
 					</div>
-					<br>
-					<div class="widget-title">
-						<p>Info Support Marketing</p>
-						<p>Terms of Use Privacy Policy</p>
-						<p>@2022 대화해조 </p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="tag">
+						<h1>#힘이되는말2</h1>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="tag">
+						<h1>#힘이되는말3</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div class="introduce">
+						<h1>힘을 주세요!</h1>
+						<br>
+					</div>
+					<!-- 소개글 -->
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="makegarden">
+						<h1>화원 만들기!</h1>
+					</div>
+					<!-- 화원 -->
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="drawrecomm">
+						<h1>힘이 되는 말!</h1>
+					</div>
+					<!-- 화원 -->
+				</div>
+
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="todaybook">
+						<h1>오늘의 책</h1>
+					</div>
+					<!-- 화원 -->
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="drawgraph">
+						<h1>그래프</h1>
+					</div>
+					<!-- 화원 -->
+				</div>
+			</div>
+		</div>
+	<div class="hero-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer">
+			<!-- footer-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="footer-widget">
+							<img src="./images/instagram.png" width="80px" height="80px"
+								alt="" hspace=20> <img src="./images/facebook.png"
+								width="80px" height="80px" alt="" hspace=20> <img
+								src="./images/twitter.png" width="80px" height="80px" alt=""
+								hspace=20>
+						</div>
+						<br>
+						<div class="widget-title">
+							<p>Info Support Marketing</p>
+							<p>Terms of Use Privacy Policy</p>
+							<p>@2022 대화해조</p>
+						</div>
 					</div>
 				</div>
 			</div>
