@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="EUC-KR">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <meta name="description"
@@ -67,11 +68,127 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- 여기서부터 작성 -->
-	
+	<div class="space-medium">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+					<div class="ccheck">
+					
+						<div class="checktitle">
+							<table class="checktitleboard">
+								<tbody>
+									<tr>
+										<td><h1>제목111</h1></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="checkwrite">
+							<table class="checkwriteboard">
+								<tbody>
+									<tr>
+										<td><img src="./images/letter3.png"
+											style="width: 110%; height: 70%;"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+
+						<div class="checkanswer">
+							<table class="checkanswerboard">
+								<tbody>
+									<tr>
+										<td><h1>다른 사용자의 답변</h1></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+					<div class="ccheck">
+					
+						<div class="checktitle">
+							<table class="checktitleboard">
+								<tbody>
+									<tr>
+										<td><h1>제목111</h1></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="checkwrite">
+							<table class="checkwriteboard">
+								<tbody>
+									<tr>
+										<td><img src="./images/letter3.png"
+											style="width: 110%; height: 70%;"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+
+						<div class="checkanswer">
+							<table class="checkanswerboard">
+								<tbody>
+									<tr>
+										<td><h1>다른 사용자의 답변</h1></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+					<div class="ccheck">
+					
+						<div class="checktitle">
+							<table class="checktitleboard">
+								<tbody>
+									<tr>
+										<td><h1>제목111</h1></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="checkwrite">
+							<table class="checkwriteboard">
+								<tbody>
+									<tr>
+										<td><img src="./images/letter3.png"
+											style="width: 110%; height: 70%;"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+
+						<div class="checkanswer">
+							<table class="checkanswerboard">
+								<tbody>
+									<tr>
+										<td><h1>다른 사용자의 답변</h1></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- 여기까지 작성 -->
-	
+
 	<div class="hero-section">
 		<div class="container">
 			<div class="row">
@@ -81,28 +198,28 @@
 			</div>
 		</div>
 	</div>
-		<div class="footer">
-			<!-- footer-->
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="footer-widget">
-							<img src="./images/instagram.png" width="80px" height="80px"
-								alt="" hspace=20> <img src="./images/facebook.png"
-								width="80px" height="80px" alt="" hspace=20> <img
-								src="./images/twitter.png" width="80px" height="80px" alt=""
-								hspace=20>
-						</div>
-						<br>
-						<div class="widget-title">
-							<p>Info Support Marketing</p>
-							<p>Terms of Use Privacy Policy</p>
-							<p>@2022 대화해조</p>
-						</div>
+	<div class="footer">
+		<!-- footer-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="footer-widget">
+						<img src="./images/instagram.png" width="80px" height="80px"
+							alt="" hspace=20> <img src="./images/facebook.png"
+							width="80px" height="80px" alt="" hspace=20> <img
+							src="./images/twitter.png" width="80px" height="80px" alt=""
+							hspace=20>
+					</div>
+					<br>
+					<div class="widget-title">
+						<p>Info Support Marketing</p>
+						<p>Terms of Use Privacy Policy</p>
+						<p>@2022 대화해조</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 	<!-- /.footer-->
 
