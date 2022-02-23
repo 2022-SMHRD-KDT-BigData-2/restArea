@@ -224,6 +224,12 @@ div.makegarden{
    height:500px;
    border: 4.5px solid #c2d8b9;
    border-radius: 30px;
+   background-image: url("../images/mainGarden.png");
+}
+
+div.makegarden>h1{
+	margin-top:20px;
+	margin-left:10px;
 }
 
 div.drawrecomm{
@@ -250,6 +256,84 @@ div.drawgraph{
    height:500px;
    border-radius: 30px;
 }
+
+.joinTitle{
+	margin-top : 10px;
+	margin-bottom : 10px;
+	font-size: 27px;
+	color:#585858;	
+	border-bottom: 1px solid #372d2b;
+}
+
+.input-form {
+	max-width: 1000px;
+	margin-left: 85px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 32px;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+	font-size : 25px;
+} 
+
+#joinsub{
+	width : 100px;
+}
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #6c757d;
+  border-radius: 15px;
+  background-color : #6c757d;
+  color: #fff;
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0.8em auto;
+  padding: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+	color: white;
+  background: #6c757d;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+	background: #fff;
+	color : #6c757d;  
+}
+
+.joinbtn::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.joinbtn:after {
+  height: 100%;
+}
+
+
 
 /*-------------- align ------------*/
 
