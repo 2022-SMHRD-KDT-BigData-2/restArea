@@ -69,7 +69,30 @@
 	</div>
 	
 	<!-- 여기서부터 작성 -->
-	
+		<div class="container">
+		<div class="row">
+		<form action="write" method="post">
+		
+		<table class="table table=striped" style=text=align: center; border: 1px solid #dddddd">
+		<thead>
+		<tr> 
+		<th colspan="2" style="background-color: #eeeeee; text-align: center;">카테고리</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+		<td><input type="text" class="form-control" placeholder="글 제목" name="title" maxlength="50" ></td>
+		</tr>
+		<tr>		
+			<td><textarea class="form-control" placeholder="글 내용" name="wcontent" maxlength="2048" style="height: 350px;"></textarea></td>
+		</tr>	
+		</tbody>
+		</table>
+		<input type="submit" class="btn btn-primary pull-right" value="전송">
+		</form>
+		 </div>
+		 </div>
 	<!-- 여기까지 작성 -->
 	
 	<div class="hero-section">

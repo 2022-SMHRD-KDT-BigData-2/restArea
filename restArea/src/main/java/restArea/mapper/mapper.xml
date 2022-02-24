@@ -7,4 +7,18 @@
 	<insert id="mainJoin" parameterType="restAreaModel.userVO">
 		insert into user_info values(#{id}, #{pw})
 	</insert>
+	
+	<insert id="write" parameterType="restAreaModel.writeVO">
+		insert into write_board
+		values(write_seq.nextval,
+		 	#{id},
+		 	#{category},
+		 	#{title},
+		 	#{wcontent},
+		 	#{joymsg},
+		 	#{delmsg}
+		 	syswdate);
+		
+	</insert>
+	
 </mapper>
