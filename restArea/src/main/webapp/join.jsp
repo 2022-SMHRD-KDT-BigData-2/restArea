@@ -52,7 +52,7 @@
 							%>
 							<ul>
 								<li><a href="join.jsp" title="SignUp">회원가입</a></li>
-								<li><a href="writeBoard.jsp" title="Login">로그인</a></li>
+								<li><a href="login.jsp" title="Login">로그인</a></li>
 							</ul>
 							<%
 								} else {

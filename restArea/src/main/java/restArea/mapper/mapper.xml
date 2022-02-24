@@ -8,6 +8,14 @@
 		insert into user_info values(#{id}, #{pw})
 	</insert>
 	
+	<select id="idCheck">
+		select * from user_info where id = #{id}
+	</select>
+	
+	<select id="mainLogin" parameterType="Model.MemberVO" resultType="Model.MemberVO">
+		select * from user_info where id = #{id} and pw = #{pw}
+	</select>
+	
 	<insert id="write" parameterType="restAreaModel.writeVO">
 		insert into write_board
 		values(write_seq.nextval,
@@ -20,5 +28,5 @@
 		 	syswdate);
 		
 	</insert>
-	
+
 </mapper>

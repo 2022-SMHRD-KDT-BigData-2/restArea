@@ -73,36 +73,22 @@
    <div class="space-medium">
       <div class="container">
          <div class="row">
-               <table class="table table-striped table-hover">
-                  <thead>
-                     <tr>
-                        <th>번호</th>
-                        <th>제목</th>
-                        <th>날짜</th>
-                        <th>답변</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                        <td>1</td>
-                        <td>title</td>
-                        <td>date</td>
-                        <td><a href="#"> answer</a></td>
-                     </tr>
-                  </tbody>
-               </table>
-         </div>
-            <div class = "text-center">
-               <ul class = "pagination">
-               <li><a href="#">1</a></li>
-               <li><a href="#">2</a></li>
-               <li><a href="#">3</a></li>
-               <li><a href="#">4</a></li>
-               <li><a href="#">5</a></li>
-            
-               </ul>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+               <div class="mcheckwrite">
+                  <h1> 내가 쓴 글 </h1>
+                  <br>
+               </div>
             </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               <div class="chanswer">
+                  <h1> 답글 </h1>
+               </div>
+            </div>
+         </div>
       </div>
+
+   </div>
    </div>
    <!-- 여기까지 작성 -->
 

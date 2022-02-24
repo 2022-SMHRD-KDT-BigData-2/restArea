@@ -29,9 +29,20 @@ public class userDAO {
 		session.close();
 		return cnt;	
 	}
-	
-	
-	
+
+	public userVO idCheck(String id) {
+		SqlSession session = sqlSessionFactory.openSession();
+		userVO vo = session.selectOne("idCheck", id);
+		session.close();
+		return vo;
+	}
+
+	public userVO login(userVO vo) {
+		SqlSession session = sqlSessionFactory.openSession();
+		userVO uvo = session.selectOne("mainLogin", vo);
+		session.close();
+		return uvo;
+	}
 	
 
 }

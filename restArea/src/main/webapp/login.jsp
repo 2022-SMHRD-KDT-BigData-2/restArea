@@ -86,25 +86,31 @@
 
 
 	<!-- 시작 -->
-	
+
 	<div class="container">
 		<div class="input-form-backgroud row">
 			<div class="input-form col-md-12 mx-auto">
-				<h4 class="joinTitle">회원가입</h4><br>
+				<h4 class="joinTitle">로그인</h4>
+				<br>
 				<form action="join" method="post" class="validation-form" novalidate>
 					<div class="row">
 						<div class="col-md-12 mb-12">
-							<label for="name">아이디</label>
-							<input type="text" class="form-control" name="id" style="font-size:25px;color:black;" required><br>
+							<label for="name">아이디</label> 
+								<input type="text" class="form-control" name="id" id="check" style="font-size: 25px; color: black; width: 100%" required>
+								<button type="button" onclick="idCheck()">중복 확인</button>
+								<p id="result"></p>
+							<br>				
+							<div class="col-sm-6"></div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 mb-12"">
-							<label for="name">비밀번호</label> 
-							<input type="text" class="form-control" name="pw" style="font-size:25px;color:black;" required><br>			
+							<label for="name">비밀번호</label> <input type="text"
+								class="form-control" name="pw"
+								style="font-size: 25px; color: black;" required><br>
 						</div>
-					</div>				
-						<button type="submit" class="joinbtn">로그인</button>					
+					</div>
+					<button type="submit" class="joinbtn">로그인</button>
 				</form>
 			</div>
 		</div>
@@ -125,9 +131,11 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="footer-widget">
-						<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
-						<img src="./images/facebook.png"width="80px" height="80px" alt="" hspace=20> 
-						<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>
+						<img src="./images/instagram.png" width="80px" height="80px"
+							alt="" hspace=20> <img src="./images/facebook.png"
+							width="80px" height="80px" alt="" hspace=20> <img
+							src="./images/twitter.png" width="80px" height="80px" alt=""
+							hspace=20>
 					</div>
 					<br>
 					<div class="widget-title">
@@ -147,5 +155,31 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/menumaker.js"></script>
 	<script src="js/navigation.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+				function idCheck(){
+					let id = $('#check').val()
+					
+					$.ajax({
+						url : 'idCheck', 
+						type : 'post', 
+						data : { 
+							'id' : id
+						},				
+						success: function(res){ 
+							console.log(res);
+							if(res == 'true'){							
+								$('#result').html('사용 가능한 아이디 입니다');
+								$('#result').css('color', 'black'');
+							} else{						
+								$('#result').html('중복된 아이디 입니다');
+								$('#result').css('color', 'tomato'');
+							}
+						},
+						error : function(){ alert("error"); } 
+					});
+					
+				}
+	</script>
 </body>
 </html>
