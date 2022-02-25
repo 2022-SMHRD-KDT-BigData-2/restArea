@@ -116,7 +116,7 @@
     <div class="popup">
         <div class="title">½Å°í ÇÏ±â</div>
         <div class="content">
-             <input type="checkbox" name="U_checkAgreement1" id="U_checkAgreement1" value="" style="zoom: 1.5; height:50px;"/> ¿å¼³dd
+             <input type="checkbox" name="U_checkAgreement1" id="U_checkAgreement1" value="" style="zoom: 1.5; height:50px;"/> ¿å¼³
               &nbsp; &nbsp;
           <input type="checkbox" name="U_checkAgreement2" id="U_checkAgreement2" value="" style="zoom: 1.5; height:50px; " /> À½..
 
