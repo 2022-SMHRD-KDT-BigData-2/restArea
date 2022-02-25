@@ -34,6 +34,7 @@
    <div class="header navbar-fixed-top">
       <div class="container">
          <div class="row">
+        
             <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
                <h1 class="active">
                   <a href="index.html" title="Home"><img src="./images/logo.png"
@@ -56,8 +57,7 @@
                   </div>
                </div>
             </div>
-         </div>
-      </div>
+        
    </div>
    <div class="hero-section">
       <div class="container">
@@ -73,6 +73,7 @@
    <div class="space-medium">
       <div class="container">
          <div class="row">
+         		
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                <div class="mcheckwrite">
                   <h1> 내가 쓴 글 </h1>
@@ -90,6 +91,7 @@
 
    </div>
    </div>
+  
    <!-- 여기까지 작성 -->
 
    <div class="hero-section">

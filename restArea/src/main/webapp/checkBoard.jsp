@@ -72,8 +72,10 @@
    <!-- 여기서부터 작성 -->
    <div class="space-medium">
       <div class="container">
+      <div class="input-form-backgroud row">
+					<div class="input-form col-md-12 mx-auto">
          <div class="row">
-               <table class="table table-striped table-hover">
+               <table class="table table-hover">
                   <thead>
                      <tr>
                         <th>번호</th>
@@ -87,12 +89,21 @@
                         <td>1</td>
                         <td>title</td>
                         <td>date</td>
-                        <td><a href="#"> answer</a></td>
+                        <td><a href="checkAnswerBoard.jsp"> answer</a></td>
                      </tr>
+                    
+                    
+                     
+                     
                   </tbody>
                </table>
          </div>
-            <div class = "text-center">
+           
+      </div>
+   </div>
+      </div>
+   </div>
+    <div class = "text-center">
                <ul class = "pagination">
                <li><a href="#">1</a></li>
                <li><a href="#">2</a></li>
@@ -102,8 +113,6 @@
             
                </ul>
             </div>
-      </div>
-   </div>
    <!-- 여기까지 작성 -->
 
    <div class="hero-section">

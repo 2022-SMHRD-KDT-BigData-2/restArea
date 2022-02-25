@@ -339,7 +339,7 @@ select {
 }
 
 table{
-   font-size:30px;
+   font-size:28px;
 }
 
 table th{
@@ -351,8 +351,9 @@ table td{
 }
 
 div.text-center > ul > li > a{
-   font-size: 30px;
+   font-size: 20px;
    color:black;
+   border-radius: 4px;
 }
 
 div.mcheckwrite{

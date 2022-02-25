@@ -73,9 +73,9 @@
 
 	<div class="write-medium">
 		<div class="container">
-			<div class="row">
 				<div class="input-form-backgroud row">
 					<div class="input-form col-md-12 mx-auto">
+			<div class="row">
 						<form action="write" method="post">
 							<h1 class="joinTitle">당신의 이야기를 보내주세요</h1>
 
