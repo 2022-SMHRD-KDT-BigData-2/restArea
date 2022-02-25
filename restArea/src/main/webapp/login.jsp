@@ -95,22 +95,18 @@
 				<form action="join" method="post" class="validation-form" novalidate>
 					<div class="row">
 						<div class="col-md-12 mb-12">
-							<label for="name">아이디</label> 
-								<input type="text" class="form-control" name="id" id="check" style="font-size: 25px; color: black; width: 100%" required>
-								<button type="button" onclick="idCheck()">중복 확인</button>
-								<p id="result"></p>
-							<br>				
+							<label for="name">아이디</label> 				
+								<input type="text" class="form-control" name="id" style="font-size:25px;color:black;" required><br>										
 							<div class="col-sm-6"></div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 mb-12"">
-							<label for="name">비밀번호</label> <input type="text"
-								class="form-control" name="pw"
-								style="font-size: 25px; color: black;" required><br>
+							<label for="name">비밀번호</label> 
+							<input type="password" class="form-control" name="pw" style="font-size: 25px; color: black;" required><br>
 						</div>
 					</div>
-					<button type="submit" class="joinbtn">로그인</button>
+					<input type="submit" class="btn btn-primary" style="margin-left:400px;" value="로그인">	
 				</form>
 			</div>
 		</div>
@@ -156,30 +152,6 @@
 	<script src="js/menumaker.js"></script>
 	<script src="js/navigation.js" type="text/javascript"></script>
 
-	<script type="text/javascript">
-				function idCheck(){
-					let id = $('#check').val()
-					
-					$.ajax({
-						url : 'idCheck', 
-						type : 'post', 
-						data : { 
-							'id' : id
-						},				
-						success: function(res){ 
-							console.log(res);
-							if(res == 'true'){							
-								$('#result').html('사용 가능한 아이디 입니다');
-								$('#result').css('color', 'black'');
-							} else{						
-								$('#result').html('중복된 아이디 입니다');
-								$('#result').css('color', 'tomato'');
-							}
-						},
-						error : function(){ alert("error"); } 
-					});
-					
-				}
-	</script>
+
 </body>
 </html>

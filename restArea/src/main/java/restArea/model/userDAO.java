@@ -21,7 +21,7 @@ public class userDAO {
 		}
 	}
 	
-	// -------------------------------------------
+	// -----------------------------------------------------------------------------
 	
 	public int join(userVO vo) {
 		SqlSession session = sqlSessionFactory.openSession(true);

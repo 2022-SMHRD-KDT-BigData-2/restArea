@@ -2,7 +2,6 @@ package restArea.model;
 
 // write_board VO (±€ ¿€º∫)
 public class writeVO {
-
 	private int write_seq;
 	private String id;
 	private String category;
@@ -12,9 +11,7 @@ public class writeVO {
 	private int joymsg;
 	private int delmsg;
 	
-	public writeVO(int write_seq, String id, String category, String wdate, String title, String wcontent, int joymsg,
-			int delmsg) {
-		super();
+	public writeVO(int write_seq, String id, String category, String wdate, String title, String wcontent, int joymsg, int delmsg) {
 		this.write_seq = write_seq;
 		this.id = id;
 		this.category = category;
@@ -22,17 +19,10 @@ public class writeVO {
 		this.title = title;
 		this.wcontent = wcontent;
 		this.joymsg = joymsg;
-		this.delmsg = delmsg;
-		
-		
-	
-
-
-		
+		this.delmsg = delmsg;	
 	}
 
 	public writeVO(String title, String wcontent) {
-		super();
 		this.title = title;
 		this.wcontent = wcontent;
 	}
@@ -100,6 +90,4 @@ public class writeVO {
 	public void setDelmsg(int delmsg) {
 		this.delmsg = delmsg;
 	}
-	
-	
 }

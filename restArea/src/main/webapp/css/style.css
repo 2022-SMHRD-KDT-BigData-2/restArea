@@ -63,7 +63,7 @@ body {
 	font-size: 16px;
 	background-color: #fff;
 	color: #464241;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	line-height: 28px;
 	font-weight: 300;
 }
@@ -258,7 +258,8 @@ div.drawgraph {
 .joinTitle {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 27px;
+	padding-bottom : 15px;
+	font-size: 30px;
 	color: #585858;
 	border-bottom: 1px solid #372d2b;
 }
@@ -277,6 +278,18 @@ div.drawgraph {
 	-moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
 	font-size: 30px;
+}
+
+.checkid{
+	display: flex;
+	padding-top : 5px;
+	padding-right : 5px;
+	border : solid 1px #dadada;
+	cursor : pointer;
+}
+
+.writeSelect{
+	display: flex;
 }
 
 #joinsub {
@@ -506,65 +519,18 @@ label {
     3. Buttons 
 -----------------------------------*/
 
-button, button::after {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-button {
-	background: none;
-	border: 3px solid #6c757d;
-	border-radius: 15px;
-	background-color: #6c757d;
-	color: #fff;
-	display: block;
-	font-size: 25px;
-	font-weight: bold;
-	margin: 0.5em auto;
-	padding: 15px;
-	position: relative;
-	text-transform: uppercase;
-}
-
-button::before, button::after {
-	color: white;
-	background: #6c757d;
-	content: '';
-	position: absolute;
-	z-index: -1;
-}
-
-button:hover {
-	background: #fff;
-	color: #6c757d;
-}
-
-button::after {
-	height: 0;
-	left: 0;
-	top: 0;
-	width: 100%;
-}
-
-.joinbtn:after {
-	height: 100%;
-}
-
 .btn {
 	display: inline-block;
 	padding: 14px 30px;
 	margin-bottom: 0;
-	font-size: 13px;
+	font-size: 23px;
 	font-weight: 800;
 	letter-spacing: 1px;
 	line-height: 1.42857143;
 	text-align: center;
 	border: none;
 	text-transform: uppercase;
-	border-radius: 40px;
-	font-family: 'Raleway', sans-serif;
+	border-radius: 20px;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -586,19 +552,19 @@ button::after {
 	border-color: #e7a625;
 }
 
-.btn-primary {
-	background-color: #13a0b2;
+ .btn-primary {
+	background-color: #4361ee;
 	color: #fff;
 }
 
 .btn-primary:hover {
-	background-color: #1392a2;
+	background-color: #3f37c9;
 	color: #fff;
 } 
 
 .btn-primary.focus, .btn-primary:focus {
 	
-}
+} 
 
 .btn-white {
 	color: #372d2b;

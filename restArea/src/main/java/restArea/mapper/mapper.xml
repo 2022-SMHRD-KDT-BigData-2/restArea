@@ -18,15 +18,7 @@
 	
 	<insert id="write" parameterType="restAreaModel.writeVO">
 		insert into write_board
-		values(write_seq.nextval,
-		 	#{id},
-		 	#{category},
-		 	#{title},
-		 	#{wcontent},
-		 	#{joymsg},
-		 	#{delmsg}
-		 	syswdate);
-		
+		values(write_seq.nextval, #{id}, #{category}, #{title}, #{wcontent}, #{joymsg}, #{delmsg}, sysdate);	
 	</insert>
 
 </mapper>

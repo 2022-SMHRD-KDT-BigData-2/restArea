@@ -22,11 +22,9 @@ public class write extends HttpServlet {
 		String title = request.getParameter("title");
 		String wcontent = request.getParameter("wcontent");
 		
-		
 		writeVO wvo = new writeVO(title, wcontent);
 		
 		writeDAO dao = new writeDAO();
-		
 		int cnt = dao.write(wvo);
 		
 		if(cnt > 0) {
@@ -34,8 +32,6 @@ public class write extends HttpServlet {
 		}else {
 			System.out.println("½ÇÆÐ");
 		}
-		response.sendRedirect("Main.jsp");
-		
-		
+		response.sendRedirect("Main.jsp");	
 	}
 }
