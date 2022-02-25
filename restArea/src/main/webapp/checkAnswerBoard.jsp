@@ -74,7 +74,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					<div class="mchanswer" style="border: 4.5px solid white;">
+					<div class="mchanswer" style="border:4.5px solid white;">
 						<div class="mmchanswer">
 							<h1>내가 쓴글</h1>
 						</div>
