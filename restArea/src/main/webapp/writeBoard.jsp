@@ -109,17 +109,16 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
-			<!-- footer-->
+		
+	<!-- footer-->
+		<div class="footer">	
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="footer-widget">
-							<img src="./images/instagram.png" width="80px" height="80px"
-								alt="" hspace=20> <img src="./images/facebook.png"
-								width="80px" height="80px" alt="" hspace=20> <img
-								src="./images/twitter.png" width="80px" height="80px" alt=""
-								hspace=20>
+							<img src="./images/instagram.png" width="60px" height="60px" alt="" hspace=10> 
+							<img src="./images/facebook.png" width="60px" height="60px" alt="" hspace=10> 
+							<img src="./images/twitter.png" width="60px" height="60px" alt="" hspace=10>
 						</div>
 						<br>
 						<div class="widget-title">
@@ -131,7 +130,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	<!-- /.footer-->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

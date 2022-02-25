@@ -28,9 +28,106 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js "></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js "></script>
 <![endif]-->
+<style>
+   html, body{
+       width: 100%;
+       height: 100%;
+       padding: 0;
+       margin: 0;
+   }
+   
+   body.dimmed::before{
+       content: '';
+       position: fixed;
+       left: 0;
+       right: 0;
+       top: 0;
+       bottom: 0;
+       background-color: rgba(255,255,255, 0.75);
+       -webkit-backdrop-filter: blur(5px);
+       backdrop-filter: blur(5px);    
+   }
+   
+   .container{
+       opacity: 0.5;
+   }
+   
+   .popup {
+       z-index: 1;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       min-width: 800px;
+       max-width: 800px;
+       background-color: #fff;
+       border-radius: 15px;
+       box-shadow: 0 2px 55px -25px rgb(0 0 0 / 100%);
+   }
+   
+   .popup > .title{
+       border-radius: 15px 15px 0 0;
+       min-height: 40px;
+       color: #fff;
+       background-color: #4361ee;
+       padding: 10px 15px;
+       padding-top : 15px;
+       box-sizing: border-box;
+       font-weight: bold;
+       font-size : 20px;
+   }
+   
+   .popup > .content {
+       padding: 20px;
+       padding-top : 50px;
+       box-sizing: border-box;
+       font-size : 20px;
+       text-align: center;
+   }
+   
+   .popup > .cmd {
+       bottom: 0;
+       min-height: 40px;
+       padding: 15px 15px;
+       box-sizing: border-box;
+       border-radius: 0 0 15px 15px;
+       min-height: 40px;
+       text-align: right;
+   }
+   
+   .popup > .cmd .button {
+       border-radius: 8px;
+       padding: 5px 10px;
+       border: 1px solid #aaa;
+   }
+   
+   .popup > .cmd .button:hover {
+       color: #fff;
+       background-color: #000;
+       border-color: #000;
+   }
+    </style>
+
 </head>
 
-<body>
+<body class="dimmed">
+
+ <form action="Main.jsp" method="post">
+    <div class="popup">
+        <div class="title">신고 하기</div>
+        <div class="content">
+             <input type="checkbox" name="U_checkAgreement1" id="U_checkAgreement1" value="" style="zoom: 1.5; height:50px;"/> 욕설dd
+              &nbsp; &nbsp;
+          <input type="checkbox" name="U_checkAgreement2" id="U_checkAgreement2" value="" style="zoom: 1.5; height:50px; " /> 음..
+
+
+        </div>
+        <div class="cmd" style="margin-left:400px;">
+            <input type="submit" name="btnclose" class="btn btn-primary" style=" height:50px; font-size:20px;" value="신고 완료!">
+            <!-- <input type="submit" class="btn btn-primary" style="margin-left:400px;" value="가입 완료"> -->
+        </div>
+    </div>
+  </form>
    <div class="header navbar-fixed-top">
       <div class="container">
          <div class="row">
@@ -70,58 +167,34 @@
    </div>
 
    <!-- 여기서부터 작성 -->
-   <div class="space-medium">
+   <div class="space-medium" style="padding-bottom:0px;">
       <div class="container">
-         <div class="input-form-backgroud row">
-            <div class="input-form col-md-12 mx-auto">
-               <div class="row">
-                  <table class="table table-hover">
-                     <thead>
-                        <tr>
-                           <th>번호</th>
-                           <th>제목</th>
-                           <th>날짜</th>
-                           <th>답변</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>1</td>
-                           <td>title</td>
-                           <td>date</td>
-                           <td><a href="checkAnswerBoard.jsp"> answer</a></td>
-                        </tr>
-                     </tbody>
-                  </table>
+         <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+               <div class="mchwrite">
+                  <h1>내가 쓴글</h1>
                </div>
-
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+               <div class="mchanswer">
+                  <div class="mmchanswer">
+                     <h1>답글</h1>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         
+         <div class="checkgarden" style="width:500px;">
+         <img src = "./images/flower.png">
          </div>
       </div>
-   </div>
-   <div class="text-center">
-      <ul class="pagination">
-         <li><a href="#">1</a></li>
-         <li><a href="#">2</a></li>
-         <li><a href="#">3</a></li>
-         <li><a href="#">4</a></li>
-         <li><a href="#">5</a></li>
-
-      </ul>
    </div>
    <!-- 여기까지 작성 -->
 
-   <div class="hero-section">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-
-            </div>
-         </div>
-      </div>
-   </div>
    
-  	<!-- footer-->
+  
+ 	<!-- footer-->
 		<div class="footer">	
 			<div class="container">
 				<div class="row">

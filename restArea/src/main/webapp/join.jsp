@@ -123,26 +123,27 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<!-- footer-->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="footer-widget">
-						<img src="./images/instagram.png" width="80px" height="80px" alt="" hspace=20> 
-						<img src="./images/facebook.png"width="80px" height="80px" alt="" hspace=20> 
-						<img src="./images/twitter.png" width="80px" height="80px" alt="" hspace=20>
-					</div>
-					<br>
-					<div class="widget-title">
-						<p>Info Support Marketing</p>
-						<p>Terms of Use Privacy Policy</p>
-						<p>@2022 대화해조</p>
+	
+	<!-- footer-->
+		<div class="footer">	
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="footer-widget">
+							<img src="./images/instagram.png" width="60px" height="60px" alt="" hspace=10> 
+							<img src="./images/facebook.png" width="60px" height="60px" alt="" hspace=10> 
+							<img src="./images/twitter.png" width="60px" height="60px" alt="" hspace=10>
+						</div>
+						<br>
+						<div class="widget-title">
+							<p>Info Support Marketing</p>
+							<p>Terms of Use Privacy Policy</p>
+							<p>@2022 대화해조</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	<!-- /.footer-->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -169,7 +170,7 @@
 								$('#result').css('color', 'black');
 							} else{						
 								$('#result').html('중복된 아이디 입니다');
-								$('#result').css('color', 'tomato'');
+								$('#result').css('color', 'tomato');
 							}
 						},
 						error : function(){ alert("error"); } 

@@ -34,7 +34,6 @@
    <div class="header navbar-fixed-top">
       <div class="container">
          <div class="row">
-        
             <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
                <h1 class="active">
                   <a href="index.html" title="Home"><img src="./images/logo.png"
@@ -57,7 +56,8 @@
                   </div>
                </div>
             </div>
-        
+         </div>
+      </div>
    </div>
    <div class="hero-section">
       <div class="container">
@@ -70,63 +70,54 @@
    </div>
 
    <!-- 여기서부터 작성 -->
-   <div class="space-medium">
+   <div class="space-medium" style="padding-bottom:0px;">
       <div class="container">
          <div class="row">
-         		
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-               <div class="mcheckwrite">
-                  <h1> 내가 쓴 글 </h1>
-                  <br>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+               <div class="mchwrite">
+                  <h1>내가 쓴글</h1>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+               <div class="mchanswer">
+                  <div class="mmchanswer">
+                     <h1>답글</h1>
+                  </div>
                </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               <div class="chanswer">
-                  <h1> 답글 </h1>
-               </div>
-            </div>
+         </div>
+         
+         <div class="checkgarden" style="width:500px;">
+         <img src = "./images/flower.png">
          </div>
       </div>
-
    </div>
    </div>
-  
    <!-- 여기까지 작성 -->
 
-   <div class="hero-section">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="footer">
-      <!-- footer-->
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-               <div class="footer-widget">
-                  <img src="./images/instagram.png" width="80px" height="80px"
-                     alt="" hspace=20> <img src="./images/facebook.png"
-                     width="80px" height="80px" alt="" hspace=20> <img
-                     src="./images/twitter.png" width="80px" height="80px" alt=""
-                     hspace=20>
-               </div>
-               <br>
-               <div class="widget-title">
-                  <p>Info Support Marketing</p>
-                  <p>Terms of Use Privacy Policy</p>
-                  <p>@2022 대화해조</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   </div>
-   <!-- /.footer-->
+   
+  	<!-- footer-->
+		<div class="footer">	
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="footer-widget">
+							<img src="./images/instagram.png" width="60px" height="60px" alt="" hspace=10> 
+							<img src="./images/facebook.png" width="60px" height="60px" alt="" hspace=10> 
+							<img src="./images/twitter.png" width="60px" height="60px" alt="" hspace=10>
+						</div>
+						<br>
+						<div class="widget-title">
+							<p>Info Support Marketing</p>
+							<p>Terms of Use Privacy Policy</p>
+							<p>@2022 대화해조</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- /.footer-->
 
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="js/jquery.min.js"></script>

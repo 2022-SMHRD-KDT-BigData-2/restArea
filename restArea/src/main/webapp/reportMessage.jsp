@@ -29,10 +29,104 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js "></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js "></script>
 <![endif]-->
-</head>
 
-<body>
-	<%
+<style>
+	html, body{
+	    width: 100%;
+	    height: 100%;
+	    padding: 0;
+	    margin: 0;
+	}
+	
+	body.dimmed::before{
+	    content: '';
+	    position: fixed;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    background-color: rgba(255,255,255, 0.75);
+	    -webkit-backdrop-filter: blur(5px);
+	    backdrop-filter: blur(5px);    
+	}
+	
+	.container{
+		 opacity: 0.5;
+	}
+	
+	.popup {
+	    z-index: 1;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	    min-width: 800px;
+	    max-width: 800px;
+	    background-color: #fff;
+	    border-radius: 15px;
+	    box-shadow: 0 2px 55px -25px rgb(0 0 0 / 100%);
+	}
+	
+	.popup > .title{
+	    border-radius: 15px 15px 0 0;
+	    min-height: 40px;
+	    color: #fff;
+	    background-color: #4361ee;
+	    padding: 10px 15px;
+	    padding-top : 15px;
+	    box-sizing: border-box;
+	    font-weight: bold;
+	    font-size : 20px;
+	}
+	
+	.popup > .content {
+	    padding: 20px;
+	    padding-top : 50px;
+	    box-sizing: border-box;
+	    font-size : 20px;
+	    text-align: center;
+	}
+	
+	.popup > .cmd {
+	    bottom: 0;
+	    min-height: 40px;
+	    padding: 15px 15px;
+	    box-sizing: border-box;
+	    border-radius: 0 0 15px 15px;
+	    min-height: 40px;
+	    text-align: right;
+	}
+	
+	.popup > .cmd .button {
+	    border-radius: 8px;
+	    padding: 5px 10px;
+	    border: 1px solid #aaa;
+	}
+	
+	.popup > .cmd .button:hover {
+	    color: #fff;
+	    background-color: #000;
+	    border-color: #000;
+	}
+    </style>
+</head>
+ 
+ <body class="dimmed">
+ <form action="Main.jsp" method="post">
+ 	<div class="popup">
+        <div class="title">신고 누적 안내</div>
+        <div class="content">
+            <p> (사유)로 신고당했습니다. </p>
+            <p> 다음에 신고 당하면 3일 계정 정지당합니다. </p>
+        </div>
+        <div class="cmd">
+            <input type="submit" name="btnclose" class="btn btn-primary" style="height:50px; font-size:20px;" value="닫기">
+            <!-- <input type="submit" class="btn btn-primary" style="margin-left:400px;" value="가입 완료"> -->
+        </div>
+    </div>
+  </form>
+    
+    <%
 		userVO vo = (userVO)session.getAttribute("vo");
 	%>
 	<div class="header navbar-fixed-top">
@@ -40,7 +134,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
 					<h1 class="active">
-						<a href="Main.jsp" title="Home"><img src="./images/logo.png" width="80px" height="80px"></a>
+						<a title="Home"><img src="./images/logo.png" width="80px" height="80px"></a>
 					</h1>
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -48,18 +142,18 @@
 						<div id="navigation">
 							<% if(vo == null){ %>
 							<ul>
-								<li><a href="join.jsp" title="SignUp">회원가입</a></li>
-								<li><a href="login.jsp" title="Login">로그인</a></li>
+								<li><a title="SignUp">회원가입</a></li>
+								<li><a title="Login">로그인</a></li>
 							</ul>
 							<% }else{ %>
 							<ul>
-								<li><a href="writeBoard.jsp" title="Write">글 쓰기</a></li>
-								<li><a href="answerBoard.jsp" title="Answer">답변하기</a></li>
-								<li><a href="gardenBoard.jsp" title="MyGarden">나의 화원</a></li>
+								<li><a title="Write">글 쓰기</a></li>
+								<li><a title="Answer">답변하기</a></li>
+								<li><a title="MyGarden">나의 화원</a></li>
 								<li><a title="MyPage">나의 쉼터</a>
 									<ul>
-										<li><a href="checkBoard.jsp" title="Check">확인하기</a></li>
-										<li><a href="Main.jsp" title="Logout">로그아웃</a></li>
+										<li><a title="Check">확인하기</a></li>
+										<li><a title="Logout">로그아웃</a></li>
 									</ul></li>
 							</ul>
 							<% } %>
@@ -100,12 +194,12 @@
 				<% } else{ %> --%>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="tag">
-						<a href="checkBoard.jsp"># 답변을 확인해주세요!</a>
+						<a># 답변을 확인해주세요!</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="tag">
-						<a href="reportMessage.jsp"># 신고가 ~!</a>						
+						<a># 신고가 ~!</a>							
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -166,7 +260,7 @@
 			</div>
 		</div>
 	</div>
-		
+	
 	<!-- footer-->
 		<div class="footer">	
 			<div class="container">
