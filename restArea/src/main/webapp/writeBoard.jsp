@@ -74,73 +74,63 @@
 	<div class="write-medium">
 		<div class="container">
 			<div class="row">
-				<form action="write" method="post">
-				<h1>당신의 이야기를 보내주세요</h1>
+				<div class="input-form-backgroud row">
+					<div class="input-form col-md-12 mx-auto">
+						<form action="write" method="post">
+							<h1 class="joinTitle">당신의 이야기를 보내주세요</h1>
 
-					<span class="sendwrite">
-						
-							<select name="wbox"
-								style="width: 100px;height: 40px; font-size: 20px; margin-top: 5px;">
-								<option value="우울" selected>우울</option>
-								<option value="진로">진로</option>
-								<option value="관계">관계</option>
-								<option value="자유">자유</option>
-							</select> 
-							<input type="text" class="form-control"
-								style="font-size: 25px; color: black;" placeholder="글 제목"
-								name="title" maxlength="50px";>
-						
-					</span>
-					
-					
-						
-							
-							<textarea class="form-control"
-										placeholder="글 내용" name="wcontent"
-										style="height: 350px; font-size: 25px; color: black;"></textarea>
-						
-						
-					
-					<input type="submit" class="btn btn-primary"
-						style="margin-left: 550px" value="전송">
-				</form>
-			
-			</div>
-		</div>
-	</div>
-	<!-- 여기까지 작성 -->
+							<span class="sendwrite"> <select name="wbox"
+								style="width: 100px; height: 40px; font-size: 20px; margin-top: 5px;">
+									<option value="우울" selected>우울</option>
+									<option value="진로">진로</option>
+									<option value="관계">관계</option>
+									<option value="자유">자유</option>
+							</select> &nbsp; &nbsp; 
+							<input type="text" class="form-control" style="font-size: 25px; color: black;" placeholder="글 제목" name="title" maxlength="50px";>
+							</span>
 
-	<div class="hero-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+							<textarea class="form-control" placeholder="글 내용" name="wcontent" style="height: 350px; font-size: 25px; color: black; margin-bottom : 20px;"></textarea>
 
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer">
-		<!-- footer-->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="footer-widget">
-						<img src="./images/instagram.png" width="80px" height="80px"
-							alt="" hspace=20> <img src="./images/facebook.png"
-							width="80px" height="80px" alt="" hspace=20> <img
-							src="./images/twitter.png" width="80px" height="80px" alt=""
-							hspace=20>
-					</div>
-					<br>
-					<div class="widget-title">
-						<p>Info Support Marketing</p>
-						<p>Terms of Use Privacy Policy</p>
-						<p>@2022 대화해조</p>
+							<input type="submit" class="btn btn-primary" style="margin-left: 400px" value="전송">
+						</form>
+
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<!-- 여기까지 작성 -->
+
+		<div class="hero-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<!-- footer-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="footer-widget">
+							<img src="./images/instagram.png" width="80px" height="80px"
+								alt="" hspace=20> <img src="./images/facebook.png"
+								width="80px" height="80px" alt="" hspace=20> <img
+								src="./images/twitter.png" width="80px" height="80px" alt=""
+								hspace=20>
+						</div>
+						<br>
+						<div class="widget-title">
+							<p>Info Support Marketing</p>
+							<p>Terms of Use Privacy Policy</p>
+							<p>@2022 대화해조</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- /.footer-->
 
