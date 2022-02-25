@@ -71,39 +71,42 @@
 
 	<!-- 여기서부터 작성 -->
 
-	<div class="write-medium"> 
+	<div class="write-medium">
 		<div class="container">
 			<div class="row">
 				<form action="write" method="post">
-					<table class="table">
-						<thead>
-                  			<tr>
-								<td colspan="12" style="text-align: left;">당신의 이야기를 보내주세요</td>
-                 			 </tr>						
-						</thead>
+				<h1>당신의 이야기를 보내주세요</h1>
+
+					<span class="sendwrite">
+						
+							<select name="wbox"
+								style="width: 100px;height: 40px; font-size: 20px; margin-top: 5px;">
+								<option value="우울" selected>우울</option>
+								<option value="진로">진로</option>
+								<option value="관계">관계</option>
+								<option value="자유">자유</option>
+							</select> 
+							<input type="text" class="form-control"
+								style="font-size: 25px; color: black;" placeholder="글 제목"
+								name="title" maxlength="50px";>
+						
+					</span>
 					
-					<tbody>
-						<tr>
-					 		<td>
-					 			<select name="wbox" style="width: 100px; height: 40px; font-size:20px; margin-top:5px;">
-		                           <option value="우울" selected>우울</option>
-		                           <option value="진로">진로</option>
-		                           <option value="관계">관계</option>
-		                           <option value="자유">자유</option>
-                     			</select></td>                		
-                     		<td><input type="text" class="form-control" style="font-size: 25px; color: black;" placeholder="글 제목" name="title" maxlength="50px">
-                     		</td>
-						</tr>
-						<tr>
-						<tr>
-							<td colspan="12"><textarea class="form-control" placeholder="글 내용" name="wcontent" style="height:350px; font-size: 25px; color: black;"></textarea></td>
-						</tr>
-					</tbody>
-				</table>
-				<input type="submit" class="btn btn-primary" style="margin-left:550px" value="전송">
-			</form>
+					
+						
+							
+							<textarea class="form-control"
+										placeholder="글 내용" name="wcontent"
+										style="height: 350px; font-size: 25px; color: black;"></textarea>
+						
+						
+					
+					<input type="submit" class="btn btn-primary"
+						style="margin-left: 550px" value="전송">
+				</form>
+			
+			</div>
 		</div>
-	</div>
 	</div>
 	<!-- 여기까지 작성 -->
 
