@@ -114,28 +114,27 @@ body.dimmed::before {
 
 	<form action="checkAnswerBoard.jsp" method="post">
 		<div class="popup">
-			<div class="title">½Å°í ÇÏ±â</div>
+			<div class="title">°ø°¨ ÇÏ±â</div>
 
-			<div class="rcontent" style="margin-top:20px;">
-				<div class="recontent">
-					<input type="checkbox" name="report" value="¿å¼³/ºñ¹æ" /> ¿å¼³/ºñ¹æ &nbsp;
-					&nbsp; 
-					<input type="checkbox" name="report" value="¼ºÈñ·Õ" />
-					¼ºÈñ·Õ&nbsp; &nbsp; 
-					<input type="checkbox" name="report" value="±âÅ¸" />
-					±âÅ¸
-				</div>
-
-				<textarea class="form-control" placeholder="±Û ³»¿ë" name="wcontent"
-					style="width:750px; height: 350px; font-size: 25px; color: black; margin:20px; margin-left:25px;"></textarea>
-			</div>
-
-			<div class="cmd" style="margin: center;">
+			<div class="cmd" style=" margin-top:10px; ">
 				<input type="submit" name="btnclose" class="btn btn-primary"
-					style="height: 50px; font-size: 20px;" value="½Å°í ¿Ï·á">
-		
+					style="width: 700px; height: 50px; font-size: 20px; border: 4px solid #ccdbfd; background-color: white; color:black;margin-right:30px; padding-bottom: 35px;"
+					value="À§·Î°¡ µÅ¿ä!">
 			</div>
+			<div class="cmd" >
+				<input type="submit" name="btnclose" class="btn btn-primary"
+					style="width: 700px; height: 50px; font-size: 20px; border: 4px solid #ccdbfd; background-color: white; color:black; margin-right:30px;padding-bottom: 35px;" value="ÈûÀÌ µÅ¿ä!">
+			</div>
+			<div class="cmd" style=" margin-bottom:10px; " >
+				<input type="submit" name="btnclose" class="btn btn-primary"
+					style="width: 700px; height: 50px; font-size: 20px;border: 4px solid #ccdbfd; background-color: white; color:black; margin-right:30px;padding-bottom: 35px;"
+					value="°ø°¨ÀÌ µÅ¿ä!">
+			</div>
+			
 		</div>
+
+
+
 	</form>
 	<div class="header navbar-fixed-top">
 		<div class="container">
